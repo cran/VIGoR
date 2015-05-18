@@ -1,0 +1,3 @@
+useDynLib(VIGoR)
+export(vigor)
+export(hyperpara)
