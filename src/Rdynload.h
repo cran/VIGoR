@@ -29,7 +29,7 @@
 #include "Boolean.h"
 //#include <R_ext/Boolean.h>
 /* called with a variable argument set */
-typedef void * (*DL_FUNC)();
+typedef void * (*DL_FUNC)(void);
 
 typedef unsigned int R_NativePrimitiveArgType;
 

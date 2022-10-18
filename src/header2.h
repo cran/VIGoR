@@ -71,13 +71,13 @@ int RandomInteger(int low, int high)
 }
 
 /*----generate a real number from Uniform (0,1)------------------------------------------------------------------------------------*/
-double rnd()
+double rnd(void)
 {
 	return(genrand_real3());
 }
 
 /*----generate real numbers from N (0,1) ( from STRUCTURE )------------------------------------------------------------------------*/
-double snorm()    /*was snorm(void) -- JKP*/
+double snorm(void)
 {
 	static double a[32] = {
 		0.0,3.917609E-2,7.841241E-2,0.11777,0.1573107,0.1970991,0.2372021,0.2776904,
@@ -180,13 +180,11 @@ S160:
 
 /*----generate real number from N(mu, sd) (from STRUCTURE)-------------------------------------------------------------------------*/
 double RNormal(double mu, double sd)
-/* Returns Normal rv with mean mu, variance sigsq.
-Uses snorm function of Brown and Lovato.  By JKP*/
 {
 	return (mu + sd * snorm());
 }
 
-/*----calculate log of the gamma function (by STRUCTURE)-------------------------------------------------------------------------*/
+/*----calculate log of the gamma function (from STRUCTURE)-------------------------------------------------------------------------*/
 double mylgamma(double zpo)
 {
 	/* LGAMMA function
@@ -1375,14 +1373,13 @@ void	UpdateB_BayesC(int P, int Ny, int Nx, int *YtoX, Ystruct *Y, Xstruct *X, Hs
 	double	vS2;
 
 	/* For variable selection */
-	double	logPi, log1minusPi;
+	double	logPi;
 
 	/* Probability of gamma */
 	double	ProbInclude, ProbIncludeConstant;
 
 	vS2 = H[0].v * H[0].S2;
 	logPi = log(H[0].Pi);
-	log1minusPi = log(1.0 - H[0].Pi);
 
 	/* update of B */
 	if (H[0].Pi<1.0)
