@@ -7,10 +7,10 @@ Predict Y of new data using a training result with vigor
 This function predicts Y of new data using a training result with vigor.
 }
 \usage{
-predict_vigor(object, newX)
+predict_vigor(training_result, newX)
 }
 \arguments{
-  \item{object}{
+  \item{training_result}{
   Result of vigor
 }
   \item{newX}{
