@@ -1,4 +1,4 @@
-278538b735851789904c89d5d9e9515d *DESCRIPTION
+c249a6146b5ddab0d1cb27d4d1549760 *DESCRIPTION
 7ae22d39c1f3ad03d08a904acae0fb81 *LICENSE
 66e70c8230bb0f63ba458c0e06f8fcb7 *NAMESPACE
 d0d13657aaed847d8b9962e1472c0b1b *R/hyperpara.R
@@ -8,11 +8,9 @@ d0d13657aaed847d8b9962e1472c0b1b *R/hyperpara.R
 8d933e0e02016816afe6f8a949315dbc *man/X.Rd
 ca11c93dc398a1dc24f632f7dc1cebb4 *man/Y.Rd
 0ddb00dbdec1687d54df72bfe9f81acb *man/Z.Rd
-8816b1cce904e52af6602c4a553c2145 *man/hyperpara.Rd
+ac272442828eec682bc5b2e0eb218b06 *man/hyperpara.Rd
 7f9801fe47023d3d30883606d06337ff *man/predict_vigor.Rd
-204a99c69617a4748734a9d5bc5d449a *man/vigor.Rd
-198fcae4c281e450b6471ece07f6fa18 *src/Boolean.h
-ca5dbbf610857781e697baef2925865f *src/Rdynload.h
+d47d4473cc5002289c86c72f2f671c88 *man/vigor.Rd
 353ba4005d65190d5833f5f6aed484cc *src/header1.h
-13de7ad777f4ebfff41ad710d311feac *src/header2.h
-0cef76bb4ab483830d352053782ef0bb *src/main.c
+baf89fbecb27bca4da0e31b69a3c3e65 *src/header2.h
+068a6aaaed4b3b2d8b0a0e5efe3e4439 *src/main.c

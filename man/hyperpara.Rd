@@ -69,7 +69,7 @@ This function returns a vector when yielding a single hyperparameter set, and a 
   vigor
 }
 \references{
-  Onogi A., Variational Bayesian inference for genome-wide regression: joint estimation of multiple learners, in prep.\cr
+  Onogi A., Variational Bayesian inference for genome-wide regression: joint estimation of multiple learners (Bioinformatics 2022).\cr
   Onogi A. & Iwata H., 2016 VIGoR: Variational Bayesian Inference for Genome-Wide Regression.
   Journal of Open Research Software, 4: e11\cr
   Onogi A., 2021, Documents for VIGoR ver. 1.1.0, https://github.com/Onogi/VIGoR\cr

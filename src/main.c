@@ -3,9 +3,9 @@
 #include <time.h>
 #include <math.h>
 #include <string.h>
+#include <R_ext/Rdynload.h>
 #include "header1.h"
 #include "header2.h"
-#include "Rdynload.h"
 
 /*
 VIGoR function for R package.

@@ -1391,6 +1391,7 @@ void	UpdateB_BayesC(int P, int Ny, int Nx, int *YtoX, Ystruct *Y, Xstruct *X, Hs
 	else
 	{	/* BRR */
 		sumGammaB2[0] = 0.0;
+	  ProbIncludeConstant = 0.0;//Not used in this case.
 	}
 
 	for (locus = 0; locus<P; locus++)
