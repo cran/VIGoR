@@ -2,9 +2,7 @@
 \alias{vigor}
 \title{Variational Bayesian inference for genome-wide regression}
 \description{
-This function performs Bayesian genome-wide regression using variational Bayesian algorithms.
-The available regression methods are Bayesian lasso (BL), extended Bayesian lasso (EBL),
-BayesA, BayesB, BayesC, Bayesian ridge regression (BRR), BLUP, and fixed effects (FIXED) (fixed effects mean regression using noninformative priors). This function allows multiple regression methods (learners) in a single model. For example, additive effects and interaction effects can be incorporated in a single model using BL and BayesB which provide different shrinkage levels.
+This function performs Bayesian genome-wide regression using variational Bayesian algorithms. The available regression methods include Bayesian Lasso (BL), Extended Bayesian Lasso (EBL), BayesA, BayesB, BayesC, Bayesian Ridge Regression (BRR), BLUP, and Fixed Effects (FIXED) (fixed effects refer to regression using noninformative priors). This function also allows multiple regression methods (learners) to be used within a single model. For instance, additive and interaction effects can be incorporated into one model using BL and BayesB, which apply different levels of shrinkage.
 }
 \usage{
 vigor(Y, ETA, Function = c("fitting", "tuning", "cv"), Nfold = 5, CVFoldTuning = 5,

@@ -1,4 +1,4 @@
-c249a6146b5ddab0d1cb27d4d1549760 *DESCRIPTION
+a679f4e39e06e439ebb6307fc46d531b *DESCRIPTION
 7ae22d39c1f3ad03d08a904acae0fb81 *LICENSE
 66e70c8230bb0f63ba458c0e06f8fcb7 *NAMESPACE
 d0d13657aaed847d8b9962e1472c0b1b *R/hyperpara.R
@@ -10,7 +10,7 @@ ca11c93dc398a1dc24f632f7dc1cebb4 *man/Y.Rd
 0ddb00dbdec1687d54df72bfe9f81acb *man/Z.Rd
 ac272442828eec682bc5b2e0eb218b06 *man/hyperpara.Rd
 7f9801fe47023d3d30883606d06337ff *man/predict_vigor.Rd
-d47d4473cc5002289c86c72f2f671c88 *man/vigor.Rd
+c97e5fc016b6ceaff63c9be195cd2431 *man/vigor.Rd
 353ba4005d65190d5833f5f6aed484cc *src/header1.h
 baf89fbecb27bca4da0e31b69a3c3e65 *src/header2.h
 068a6aaaed4b3b2d8b0a0e5efe3e4439 *src/main.c
